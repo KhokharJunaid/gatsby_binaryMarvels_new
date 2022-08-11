@@ -1,0 +1,139 @@
+.left_to_right {
+    margin-top: -300px;
+    margin-left: 10%;
+}
+
+.left_to_right_word {
+    line-height: 0;
+    font-weight: bold;
+    font-size: 210px;
+    color: #0f76de;
+    margin-right: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left_to_right_img {
+    width: 100%;
+    height: 450px;
+    max-height: 539px;
+    object-fit: cover;
+    margin-left: 5px;
+    position: relative;
+}
+
+.left_to_right_text_parent {
+    width: 100%;
+    margin-left: -15px;
+    margin-top: 40px;
+}
+
+.left_to_right_text {
+    width: 100%;
+    height: 100%;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left_to_right_text_pera {
+    width: 100%;
+    height: 100%;
+    line-height: 1.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 575px) {
+    .left_to_right {
+        margin-top: 31px !important;
+    }
+
+    /* .left_to_right_text_parent {
+    margin-left: 0px;
+    margin-top: 40px;
+  } */
+    .left_to_right_text_parent {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .left_to_right_text {
+        width: 100%;
+        height: 100%;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_to_right_text_pera {
+        width: 100%;
+        height: 100%;
+        line-height: 1.7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_to_right_img {
+        width: 100%;
+        max-height: 539px;
+        object-fit: cover;
+        margin-left: 0px;
+    }
+
+    .webdesign_padding {
+        padding: 0px 15px !important;
+    }
+}
+
+@media screen and (max-width: 947px) {
+    .left_to_right {
+        margin-top: 150px;
+        margin-left: 0%;
+    }
+
+    .left_to_right_word {
+        font-size: 105px;
+        /* margin-top: -350px; */
+        display: none;
+    }
+
+    .left_to_right_text {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .left_to_right_img {
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+
+    .left_to_right_text_parent {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .left_to_right_text {
+        width: 100%;
+        height: 100%;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .left_to_right_text_pera {
+        width: 100%;
+        height: 100%;
+        line-height: 1.7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

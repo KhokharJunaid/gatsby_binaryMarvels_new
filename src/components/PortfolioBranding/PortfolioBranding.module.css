@@ -1,0 +1,28 @@
+.parents_foscal {
+    margin-bottom: 150px;
+}
+
+.parent {
+    margin-top: 150px;
+}
+
+.fiscal_child {
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.fiscal_child_last {
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 580px) {
+    .fiscal_child {
+        margin-left: 0px;
+    }
+
+    .fiscal_child_last {
+        margin-left: 0px;
+    }
+}

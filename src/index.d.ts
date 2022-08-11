@@ -1,0 +1,9 @@
+declare module "*.module.css";
+declare module "*.js";
+declare module "*.png";
+declare module "*.jpg";
+declare module "*.css";
+declare module "*.svg";
+declare module "react-slick";
+declare module "framer-motion"
+declare module "react-scrollspy"

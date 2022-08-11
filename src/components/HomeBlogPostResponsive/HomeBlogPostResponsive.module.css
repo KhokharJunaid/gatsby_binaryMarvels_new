@@ -1,0 +1,114 @@
+/* HomeBelogPostResponsive */
+.blog_post_parent {
+    display: none;
+}
+
+@media screen and (max-width: 1080px) {
+    .blog_post_parent {
+        display: block;
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 180px;
+    }
+
+    .col_one {
+        padding-left: 80px;
+    }
+
+    .blog_post_btn_parent {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 70px;
+        margin-top: 30px;
+    }
+
+    .heading_text {
+        line-height: 1.2;
+    }
+
+    .texts {
+        line-height: 1.7;
+        width: 290px;
+    }
+
+    .blog_post_btn_next {
+        height: 50px;
+
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        background-color: white;
+    }
+
+    .blog_post_btn_next:hover {
+        cursor: pointer;
+        color: #0f76de;
+    }
+
+    .blog_post_btn {
+        height: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        border: none;
+        background-color: white;
+    }
+
+    .blog_post_btn:hover {
+        cursor: pointer;
+        color: #0f76de;
+    }
+
+    .blog_post_img {
+        max-height: 10%;
+        object-fit: cover;
+        position: relative;
+        height: 401px;
+        width: 400px;
+    }
+
+    .blog_post_date {
+        color: #0f76de;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .blog_post_parent {
+        display: block;
+
+        width: 100%;
+
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-top: 43px !important;
+    }
+
+    .home_img_slider {
+        width: 100% !important;
+    }
+
+    .col_one {
+        width: 100% !important;
+    }
+
+    .blog_post_img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .heading_text {
+        width: 100% !important;
+        overflow: hidden;
+    }
+
+    .col_one {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 997px) {}

@@ -1,0 +1,22 @@
+.text_desing_perant {
+    margin-top: 90px;
+    width: 55%;
+    margin-left: 31.5%;
+}
+
+.component_list {
+    color: #0f76de;
+    line-height: 2.5;
+}
+
+@media screen and (max-width: 994px) {
+    .text_desing_perant {
+        margin-left: 0%;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

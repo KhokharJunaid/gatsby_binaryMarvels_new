@@ -1,0 +1,14 @@
+.internet_para {
+    margin-top: 30px;
+}
+
+.list {
+    color: #0f76de;
+    line-height: 2;
+}
+
+@media screen and (max-width: 947px) {
+    .internet_para {
+        padding: 10px;
+    }
+}

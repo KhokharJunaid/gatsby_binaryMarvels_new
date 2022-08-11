@@ -1,0 +1,45 @@
+.sidebar_child {
+    list-style: none;
+}
+
+.text_heading {
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.sidebar_text {
+    color: aliceblue;
+    font: uppercase;
+    cursor: pointer;
+}
+
+.sidebar_text:hover {
+    color: aliceblue;
+    padding-left: 10px;
+    border-left: 3px solid #0f76de;
+}
+
+.sidebar_text:focus {
+    color: aliceblue;
+    padding-left: 10px;
+    border-left: 3px solid #0f76de;
+}
+
+.black_aside_bar {
+    margin-left: -20px;
+}
+
+.icons {
+    padding-bottom: 30px;
+    margin-left: -10px;
+}
+
+.home_img {
+    height: 35px;
+    padding-left: 5px;
+}
+
+.social_media_icons_facebook {
+    height: 30px;
+    padding-left: 5px;
+}

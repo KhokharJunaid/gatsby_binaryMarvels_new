@@ -1,0 +1,42 @@
+.footer_list {
+  padding: 80px;
+  line-height: 2;
+}
+
+.list {
+  list-style: none;
+  width: fit-content;
+}
+
+.links {
+  color: #ffffff;
+  line-height: 2;
+}
+
+.text_heading {
+  /* padding-left: 40px; */
+  color: #ffffff;
+  line-height: 2;
+  width: fit-content;
+}
+
+.details {
+  /* padding-left: 40px; */
+  line-height: 2;
+  color: #ffffff;
+}
+
+
+
+/* .column_inside, .islb {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+} */
+
+@media screen and (max-width: 550px) {
+  .islb {
+    display: none;
+  }
+}

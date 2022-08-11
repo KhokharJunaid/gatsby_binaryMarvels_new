@@ -1,0 +1,114 @@
+.clients_parent {
+    margin-top: 200px;
+    padding-left: 13%;
+    width: 95%;
+}
+
+.client_child {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    margin-top: 20px;
+    height: 68px;
+    /* background-color: red; */
+    /* width: fit-content; */
+    padding-right: 20px;
+}
+
+.client_child_img {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    margin-top: 27px;
+}
+
+
+.home_img {
+    opacity: 0.5;
+    object-fit: cover;
+    object-fit: cover;
+    position: relative;
+    /* height: 31px; */
+    width: 70%;
+}
+
+.medsi_img {
+    padding-top: 5px;
+    object-fit: cover;
+    /* height: 31px; */
+    width: 70%;
+    opacity: 0.5;
+    position: relative;
+
+}
+
+.quran_img {
+    padding-top: 15px;
+    object-fit: cover;
+    object-fit: cover;
+    opacity: 0.5;
+    position: relative;
+    /* height: 31px; */
+    width: 70%;
+
+}
+
+.flight_img {
+    padding-top: 15px;
+    object-fit: cover;
+    object-fit: cover;
+    opacity: 0.5;
+    position: relative;
+    /* height: 31px; */
+    width: 70%;
+}
+
+@media screen and (max-width: 947px) {
+    .clients_parent {
+        margin-top: 20px;
+        margin-left: 0%;
+        width: 100%;
+        padding-left: 0px;
+        padding: 0px 20px;
+    }
+
+    .home_client_main_row {
+        padding: 0px 20px;
+    }
+
+    .client_child {
+        padding-left: 50px;
+    }
+
+    .client_child_img {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .client_child {
+        padding-left: 30%;
+    }
+
+    .client_child_img {
+        padding-left: 32%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .client_child {
+        margin-left: -10px;
+    }
+
+    .client_child_img {
+        padding-left: -10px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .clients_parent {
+        margin-top: 99px !important;
+    }
+}

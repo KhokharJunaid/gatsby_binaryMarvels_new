@@ -1,0 +1,22 @@
+.text_area {
+    width: 56%;
+    margin-top: 65px;
+    margin-left: 31.5%;
+}
+
+.paragraph {
+    line-height: 2;
+}
+
+.list {
+    color: #0f76de;
+}
+
+@media screen and (max-width: 575px) {
+    .text_area {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        margin-top: -12px !important;
+    }
+}

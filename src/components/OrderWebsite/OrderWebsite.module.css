@@ -1,0 +1,220 @@
+.order_form_parent {
+    margin-top: 200px;
+}
+
+.order_form_child {
+    gap: 30px;
+    width: 100%;
+}
+
+.order_btn {
+    width: 175px;
+    height: 45px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    margin-left: 450px;
+    background-color: white;
+}
+
+.order_btn:hover {
+    width: 175px;
+    height: 45px;
+    border: 2px solid #0f76de;
+    border-radius: 10px;
+    margin-left: 450px;
+
+    background-color: #0f76de;
+    color: whitesmoke;
+}
+
+.order_btn:focus {
+    width: 175px;
+    height: 45px;
+    border: 2px solid #0f76de;
+    background-color: #0f76de;
+    color: whitesmoke;
+}
+
+.order_detail {
+    width: 77.66%;
+    height: 201px !important;
+    border: 2px solid #707070;
+    border-radius: 10px;
+}
+
+.order_detail:hover {
+    border: 2px solid #0f76de;
+}
+
+.order_domain_counting {
+    padding-left: 25px;
+    width: 64px;
+    height: 40px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+}
+
+.order_domain_counting:hover {
+    padding-left: 25px;
+    width: 64px;
+    height: 40px;
+    border: 2px solid #0f76de;
+    border-radius: 10px;
+}
+
+.budget {
+    display: flex;
+}
+
+.order_detail_budget {
+    margin-top: 3px;
+    border: 2px solid #707070;
+    border-radius: 8px;
+}
+
+.order_detail_budget:hover {
+    border: 2px solid #0f76de;
+}
+
+.order_detail_budget:focus {
+    border: 2px solid #0f76de;
+}
+
+.link {
+    margin-left: 80px;
+}
+
+.link_text {
+    padding: 10px;
+    color: black;
+}
+
+.service_input {
+    width: 100%;
+    border: 2px solid #707070;
+}
+
+.space_inputs {
+    display: flex;
+    width: 100%;
+    /* display: flex; */
+}
+
+.Service_Name {
+    width: 100%;
+}
+
+.remove_button {
+    font-size: 18px;
+}
+
+.service_input_field {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #707070;
+}
+
+.service_input_field:hover {
+    border: 2px solid #0f76de !important;
+}
+
+.service_input_field:focus {
+    border: 2px solid #0f76de !important;
+}
+
+.order_detail_url_add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #707070;
+    border-radius: 12px;
+    width: 20%;
+    height: 45px;
+}
+
+.order_detail_url_add:hover {
+    border: 2px solid #0f76de;
+    background-color: #0f76de;
+
+    color: #ffffff;
+}
+
+.order_detail_url_add:focus {
+    border: 2px solid #0f76de;
+    background-color: #0f76de;
+
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1072px) {
+    .order_form_parent {
+        margin-top: 200px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .order_detail_url_add {
+        cursor: pointer;
+        font-weight: bold;
+        border: 2px solid #707070;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .order_btn {
+        width: 30%;
+        height: 45px;
+        border: 2px solid #707070;
+        border-radius: 10px;
+        margin-left: 50px;
+        background-color: white;
+    }
+
+    .order_btn:hover {
+        width: 30%;
+
+        height: 45px;
+        border: 2px solid #0f76de;
+        border-radius: 10px;
+        margin-left: 150px;
+        background-color: #0f76de;
+        color: whitesmoke;
+    }
+
+    .order_btn:focus {
+        width: 30%;
+        height: 45px;
+        border: 2px solid #0f76de;
+        border-radius: 10px;
+        margin-left: 150px;
+        background-color: #0f76de;
+        color: whitesmoke;
+    }
+
+    .budget {
+        display: block;
+    }
+
+    .order_detail_budget:focus {
+        border: 2px solid #0f76de;
+    }
+
+    .link {
+        margin-left: 5px;
+    }
+
+    .link_text {
+        padding: 10px;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .order_form_child {
+        width: 30%;
+    }
+}

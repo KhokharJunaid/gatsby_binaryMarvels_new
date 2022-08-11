@@ -1,0 +1,18 @@
+.headingOne {
+    font-size: 32px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    z-index: 2 !important;
+}
+
+@media screen and (max-width: 997px) {
+    .headingOne {
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .headingOne {
+        margin-top: -1px !important;
+    }
+}

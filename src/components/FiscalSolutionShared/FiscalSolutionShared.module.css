@@ -1,0 +1,98 @@
+.main_foscial_cards {
+    margin-top: 300px;
+}
+
+.portfolio_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foscial_cards_parent {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.foscial_cards_col {
+    position: relative;
+    z-index: 2;
+}
+
+.foscial_cards_col:hover {
+    position: relative;
+    z-index: 2;
+}
+
+.foscial_cards_text_parent {
+    position: relative;
+
+    /* margin: 0 auto; */
+    width: 100%;
+}
+
+.foscial_cards_text_parent:hover {
+    display: inline-block;
+}
+
+.foscial_cards_text_parent:hover .shape {
+    width: 100%;
+    height: 250px;
+    stroke-width: 4px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1460;
+}
+
+.shape {
+    stroke-dasharray: 210 840;
+    stroke-dashoffset: 210;
+    stroke-width: 0;
+    fill: transparent;
+    stroke: #0f76de;
+
+    transition: stroke-width 1s, stroke-dashoffset 0s, stroke-dasharray 2s;
+}
+
+.text_heading {
+    padding-top: -20px !important;
+    border-bottom: 2px solid #0f76de;
+}
+
+.text_heading:hover {
+    padding-top: -15px !important;
+    border-bottom: none !important;
+}
+
+.circleimages {
+    width: 100%;
+    margin-top: -260px;
+    background-color: transparent !important;
+    height: 150px;
+    padding: 20px;
+}
+
+.portfolio_circle {
+    height: 120px;
+}
+
+.foscial_cards_text_child {
+    margin-top: 60px;
+    padding-left: 30px;
+}
+
+
+.foscial_cards_text_pera {
+    padding-left: 30px;
+}
+
+.foscial_cards_parent_image {
+    width: 100%;
+    margin-top: 170px;
+    padding: 20px;
+}
+
+.portfolio_img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 450px;
+}

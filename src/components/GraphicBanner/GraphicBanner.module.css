@@ -1,0 +1,28 @@
+.web_design_child {
+    width: 56%;
+    margin-top: 65px;
+    margin-left: 31%;
+}
+
+.counting {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    line-height: 1;
+    color: #0f76de;
+    padding-right: 10px;
+}
+
+.text {
+    padding-left: 40px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 575px) {
+    .web_design_child {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+    }
+}

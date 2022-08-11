@@ -1,0 +1,15 @@
+.main_parent_web_design {
+    margin-top: 30rem;
+}
+
+@media screen and (max-width: 575px) {
+    .main_parent_web_design {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .main_parent_web_design {
+        margin-top: 0px;
+    }
+}

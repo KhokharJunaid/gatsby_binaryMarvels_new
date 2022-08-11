@@ -1,0 +1,12 @@
+.picture {
+    margin: 50px;
+    margin-left: 16%;
+}
+
+.home_2nd_img {
+    width: 100%;
+    max-height: 389px;
+    object-fit: fill;
+    position: relative;
+    height: 370px;
+}

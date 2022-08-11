@@ -1,0 +1,57 @@
+.web_site_btn_parent {
+    width: 73%;
+    margin-left: 15%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.btn {
+    margin-top: 70px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    background-color: #0f76de;
+}
+
+.btn:hover {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #0f76de;
+    border-color: #0f76de;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 947px) {
+    .web_site_btn_parent {
+        margin-left: 0%;
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .web_site_btn_parent {
+        width: 100%;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        /* text-align: center; */
+        margin-top: 76px !important;
+    }
+
+    .btn {
+        margin-top: 34px !important;
+    }
+}

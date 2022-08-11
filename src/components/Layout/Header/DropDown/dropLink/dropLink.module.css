@@ -1,0 +1,56 @@
+.icons {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 1px whitesmoke solid;
+  background-color: black;
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+}
+
+.icons:hover {
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 10px;
+  border: 1px #0f76de solid;
+  background-color: #0f76de;
+  border-radius: 5px;
+  height: 45px;
+  width: 45px;
+}
+
+.Parent_drop {
+  padding: 20px;
+  width: 100%;
+  height: 200px;
+  background-color: #0f76de;
+  margin-top: 20px;
+}
+
+.contact_child {
+  padding-top: 15px;
+}
+
+.follow_us {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.social_media_icons_parents {
+  height: 100%;
+  width: 100%;
+}
+
+.social_media_icons {
+  height: 45px;
+  width: 45;
+  padding: 3px;
+  position: relative;
+}
+
+.text {
+  color: #ffffff;
+}

@@ -1,0 +1,41 @@
+.Graphic_ofr_parent {
+    margin-top: 150px;
+    margin-left: 13%;
+}
+
+.home_img {
+    max-height: 417px;
+    object-fit: cover;
+    position: relative;
+    height: 417px;
+}
+
+.list {
+    line-height: 2;
+    color: #0f76de;
+}
+
+.Graphic_ofr_child {
+    width: 100%;
+}
+
+@media screen and (max-width: 1042px) {
+    .home_img {
+        /* width: 100%; */
+        max-height: 350px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    .Graphic_ofr_parent {
+        margin-top: 150px;
+        margin-left: 0;
+    }
+
+    .home_img {
+        width: 100%;
+        max-height: 280px;
+        object-fit: cover;
+    }
+}

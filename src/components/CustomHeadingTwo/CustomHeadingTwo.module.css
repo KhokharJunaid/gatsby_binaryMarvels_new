@@ -1,0 +1,17 @@
+.headingTwo {
+    color: #333333;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 66 !important;
+    font-size: 20px !important;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 997px) {
+    .headingTwo {
+        line-height: 1.5;
+        font-size: 20px !important;
+        color: #333333;
+        font-family: 'Montserrat', sans-serif;
+        z-index: 66 !important;
+    }
+}

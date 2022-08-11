@@ -1,0 +1,132 @@
+.parent_home_page {
+    margin: 0px;
+    padding: 0px;
+}
+
+.home_img {
+    margin-top: 10px;
+    max-height: 650px;
+    float: right;
+    object-fit: fill;
+    z-index: -1;
+    position: relative;
+    height: 650px;
+    width: 700px;
+    transform: translateX(28px)
+}
+
+.home_text_web {
+    width: 100%;
+    line-height: 1;
+    margin-top: -137px;
+
+    font-size: 20px;
+    color: #333333;
+}
+
+.home_btns {
+    margin-top: 5px;
+}
+
+.btn {
+    margin: 10px;
+    width: 175px;
+    height: 45px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: whitesmoke;
+    margin: 10px;
+    width: 175px;
+    height: 45px;
+    border: 2px solid #0f76de;
+    background-color: #0f76de;
+    border-radius: 10px;
+}
+
+.btn_icon {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.btn_icon:hover {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.main_parent_div_home_banner {
+    margin-top: 144px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .home_text_web {
+        padding-left: 18px;
+        font-size: 20px;
+        line-height: 0.7;
+        margin-top: -124px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .parent_home_page {
+        padding-left: 30px;
+
+    }
+
+
+    .home_text_web {
+        padding-left: 18px;
+        font-size: 20px;
+        line-height: 0.7;
+        margin-top: -80px;
+        width: 100%;
+    }
+
+    .home_btns {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .btn_link_order {
+        width: 100%;
+    }
+
+    .btn {
+        width: 40%;
+    }
+
+    .btn:hover {
+        width: 40%;
+    }
+
+    .main_parent_div_home_banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .main_parent_div_home_banner {
+        margin-top: 101px !important;
+    }
+
+
+}

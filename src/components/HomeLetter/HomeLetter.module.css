@@ -1,0 +1,12 @@
+.homeLetter {
+    font-weight: bold;
+    font-size: 222px;
+    color: #0f76de;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 842px) {
+    .homeLetter {
+        font-size: 120px;
+    }
+}

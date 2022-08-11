@@ -1,0 +1,14 @@
+.web_design_child {
+    width: 56%;
+    margin-top: 65px;
+    margin-left: 31%;
+}
+
+@media screen and (max-width: 575px) {
+    .web_design_child {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        margin-top: 74px !important;
+    }
+}

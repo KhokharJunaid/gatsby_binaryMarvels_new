@@ -1,0 +1,69 @@
+.icon_parent {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.icons_svg_child {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  border: 4px #0f76de solid;
+  margin-top: 28px;
+  margin-left: 10px;
+  background-color: #0f76de;
+  height: 45px;
+}
+
+.icons_svg_child:hover {
+  border: 4px black solid;
+
+  background-color: black;
+}
+
+.nav_headings {
+  margin-top: 15px;
+  display: flex;
+  float: right;
+  margin-right: 10px;
+}
+
+.nav_headings {
+  padding-top: 30px;
+}
+
+.icons_email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icons_blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.home_img {
+  margin: 30px;
+  height: 60px;
+  width: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+
+  /* .nav_headings {
+    display: none;
+  }
+  .nav_headings_parent {
+    display: none;
+  } */
+  .icon_parent {
+    display: none;
+  }
+}

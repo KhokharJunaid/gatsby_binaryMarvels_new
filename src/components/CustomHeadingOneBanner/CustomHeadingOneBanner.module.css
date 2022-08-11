@@ -1,0 +1,13 @@
+.headingOne {
+    font-size: 48px;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    z-index: 2 !important;
+
+}
+
+@media screen and (max-width: 997px) {
+    .headingOne {
+        font-size: 32px;
+    }
+}
