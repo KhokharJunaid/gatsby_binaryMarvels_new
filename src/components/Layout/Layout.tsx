@@ -3,8 +3,8 @@ import MainFooter from './Footer/MainFooter/MainFooter';
 import Header from './Header/HeaderMain/HeaderMain';
 import { motion } from 'framer-motion';
 import BackgroundLinesImg from "../../../src/images/BackgroundLines.svg";
-
-function Layout({ children }: { children: any }) {
+// : { children: any }
+function Layout({ children }: any) {
   const [headerFlag, setHeaderFlag] = useState<boolean>(true);
 
   useEffect(() => {
