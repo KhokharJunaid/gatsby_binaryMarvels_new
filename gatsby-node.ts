@@ -1,10 +1,10 @@
 
-exports.onCreateWebpackConfig = helper => {
+exports.onCreateWebpackConfig = (helper:any) => {
   const { stage, actions, getConfig } = helper
   if (stage === "develop" || stage === 'build-javascript') {
     const config = getConfig()
     const miniCssExtractPlugin = config.plugins.find(
-      plugin => plugin.constructor.name === "MiniCssExtractPlugin"
+      (plugin:any) => plugin.constructor.name === "MiniCssExtractPlugin"
     )
     if (miniCssExtractPlugin) {
       miniCssExtractPlugin.options.ignoreOrder = true

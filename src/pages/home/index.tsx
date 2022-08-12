@@ -32,7 +32,7 @@ function Home() {
     }, [scroll]);
     return (
         <>
-            <Layout>
+            <Layout >
                 <div className="mainContainer">
                     <div className="childContainer">
                         <motion.div
