@@ -1,6 +1,6 @@
 import { Col, Row } from 'antd';
 import React, { useEffect } from 'react';
-import HomeOptimizationImg from "../../images/HomeSEO.png"
+// import HomeOptimizationImg from "../../images/HomeSEO.png"
 import CustomHeadingOne from '../CustomHeadingOne/CustomHeadingOne';
 import CustomHeadingTwo from '../CustomHeadingTwo/CustomHeadingTwo';
 import CustomParagraph from '../CustomParagraph/CustomParagraph';
@@ -14,6 +14,7 @@ import {
     TextVariants,
 } from '../../services/animation.service';
 import { useInView } from 'react-intersection-observer';
+import { StaticImage } from 'gatsby-plugin-image';
 function HomeOptimization() {
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -82,10 +83,11 @@ function HomeOptimization() {
                 </Col>
                 <Col xs={24} sm={24} md={12} lg={12} xl={12} xxl={12}>
                     <motion.div variants={ImageVariants}>
-                        <img alt=""
+                        {/* <img alt=""
                             src={HomeOptimizationImg}
                             className={HomeOptimizationStyles.home_img}
-                        />
+                        /> */}
+                        <StaticImage className={HomeOptimizationStyles.home_img} src="../../images/HomeSEO.png" alt="" />
                         {/* <div className={HomeOptimizationStyles.home_img}>
                             <Image layout='fill' src={'/Assets/Images/HomeSEO.png'} />
                         </div> */}

@@ -26,6 +26,7 @@ function LeftToRight({
     imgSrc: string;
     capitalValue: string;
 }) {
+
     const controls = useAnimation();
     const [ref, inView] = useInView();
     useEffect(() => {

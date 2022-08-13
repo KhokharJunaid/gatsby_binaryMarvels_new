@@ -44,6 +44,7 @@ function Sidebar() {
                         '',
                     ]}
                     currentClassName="active"
+                    style={{ marginLeft: "40px" }}
                 >
                     {/* <Timeline mode="left"> */}
                     <Timeline.Item
