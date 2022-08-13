@@ -12,6 +12,7 @@ import {
 } from '../../services/animation.service';
 import { useInView } from 'react-intersection-observer';
 import HomePlainsImg from "../../images/HomeMeet.png";
+import { StaticImage } from 'gatsby-plugin-image';
 function HomePlains() {
     const controls = useAnimation();
     const [ref, inView] = useInView();
@@ -65,10 +66,11 @@ function HomePlains() {
                 </Col>
                 <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
                     <motion.div variants={ImageVariants}>
-                        <img alt=""
+                        {/* <img alt=""
                             src={HomePlainsImg}
                             className={HomePlainsStyle.plains_img}
-                        />
+                        /> */}
+                        <StaticImage className={HomePlainsStyle.plains_img} src="../../images/HomeMeet.png" alt="" />
                         {/* <div className={HomePlainsStyle.plains_img}>
                             <Image layout='fill' src={'/Assets/Images/HomeMeet.png'} />
                         </div> */}
