@@ -71,8 +71,8 @@ function CallIcon() {
           <span className={CallIconsStyles.cell_phone}>Cellphone:</span>
           <span className={CallIconsStyles.numbers}>+92305 5609555</span>
         </div>
-      </motion.div>
-    </motion.div>
+      </motion.div >
+    </motion.div >
   );
   return (
     <>

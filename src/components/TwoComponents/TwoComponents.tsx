@@ -83,8 +83,8 @@ function TwoComponents({
                             </div> */}
                         </motion.div>
                     </Col>
-                </Row>
-            </motion.div>
+                </Row >
+            </motion.div >
         </>
     );
 }

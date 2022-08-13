@@ -130,9 +130,9 @@ function HomeWebDevelopment() {
                             <motion.li variants={TextVariants}>+ CUSTOM SOLUTIONS</motion.li>
                         </ul>
                     </Col>
-                </Row>
-            </motion.div>
-        </motion.div>
+                </Row >
+            </motion.div >
+        </motion.div >
     );
 }
 

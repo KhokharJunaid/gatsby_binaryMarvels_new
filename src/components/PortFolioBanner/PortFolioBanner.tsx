@@ -55,10 +55,10 @@ function PortFolioBanner() {
                         </div>
                     </Col>
                     <Col xs={24} sm={24} md={10} lg={10} xl={10} xxl={10}>
-                        {width > 1100 && <img alt=""
+                        {/* {width > 1100 && <img alt=""
                             src={Banner}
                             className={PortFolioBannerStyles.home_img}
-                        />}
+                        />} */}
 
                         {/* {width > 1100 && <div className={PortFolioBannerStyles.home_img}>
                             <Image layout='fill' src={'/Assets/Images/Banner.png'} />

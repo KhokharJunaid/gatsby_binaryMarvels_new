@@ -75,7 +75,7 @@ function HomePlains() {
                     </motion.div>
                 </Col>
             </Row>
-        </motion.div>
+        </motion.div >
     );
 }
 

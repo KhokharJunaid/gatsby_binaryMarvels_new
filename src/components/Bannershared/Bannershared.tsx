@@ -83,19 +83,20 @@ function BannerShared({
                             </motion.div>
                         </Col>
                         <Col xs={0} sm={0} md={0} lg={10} xl={10} xxl={10}>
-                            <motion.div variants={ImageVariants}>
+                            {/* <motion.div variants={ImageVariants}>
                                 {width > 1100 && <img alt="" src={imgSrc} className={BannerSharedStyles.home_img} />}
-
-                                {/* {width > 1100 && <div className={BannerSharedStyles.home_img}>
-                                    <Image src={imgSrc} layout='fill' />
-                                </div>} */}
-                            </motion.div>
+                            </motion.div> */}
                         </Col>
                     </Row>
-                </motion.div>
-            </div>
+                </motion.div >
+            </div >
         </>
     );
 }
 
 export default BannerShared;
+
+
+{/* {width > 1100 && <div className={BannerSharedStyles.home_img}>
+                                    <Image src={imgSrc} layout='fill' />
+                                </div>} */}

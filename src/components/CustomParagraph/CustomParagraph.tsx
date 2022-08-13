@@ -7,7 +7,7 @@ function CustomParagraph({ text }: { text: string }) {
     return (
         <motion.p className={CustomParagraphStyles.paragraph} variants={TextVariants}>
             {text}
-        </motion.p>
+        </ motion.p>
     );
 }
 

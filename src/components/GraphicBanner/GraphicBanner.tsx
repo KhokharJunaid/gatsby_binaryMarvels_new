@@ -63,7 +63,7 @@ function GraphicBanner() {
                         }
                     />
                 </motion.div>
-            </motion.div>
+            </motion.div >
         </>
     );
 }

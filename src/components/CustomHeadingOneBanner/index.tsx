@@ -19,7 +19,7 @@ function CustomHeadingOneBanner({ text }: { text: string }) {
     return (
         <motion.h1 className={HomeBannerStyles.headingOne} variants={textVariants}>
             {text}
-        </motion.h1>
+        </ motion.h1>
     );
 }
 

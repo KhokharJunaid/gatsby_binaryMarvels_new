@@ -6,7 +6,7 @@ function CustomHeadingThree({ text }: { text: string }) {
     return (
         <motion.h3 className={CustomHeadingThreeStyles.headingThree} variants={TextVariants}>
             {text}
-        </motion.h3>
+        </ motion.h3>
     );
 }
 

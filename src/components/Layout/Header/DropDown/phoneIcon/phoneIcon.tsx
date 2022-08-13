@@ -69,8 +69,8 @@ function PhoneIcon() {
           <span className={PhoneIconStyles.cell_phone}>Cellphone:</span>
           <span className={PhoneIconStyles.numbers}>+92305 5609555</span>
         </div>
-      </motion.div>
-    </motion.div>
+      </motion.div >
+    </motion.div >
   );
   return (
     <>

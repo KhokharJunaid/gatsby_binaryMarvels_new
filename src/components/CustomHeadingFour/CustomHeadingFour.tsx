@@ -6,7 +6,7 @@ function CustomHeadingFour({ text }: { text: string }) {
     return (
         <motion.h4 className={CustomHeadingFourStyles.headingFour} variants={TextVariants}>
             {text}
-        </motion.h4>
+        </ motion.h4>
     );
 }
 
