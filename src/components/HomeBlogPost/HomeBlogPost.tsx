@@ -8,11 +8,9 @@ import CustomHeadingOne from '../CustomHeadingOne/CustomHeadingOne';
 import CustomHeadingThree from '../CustomHeadingThree/CustomHeadingThree';
 import CustomParagraph from '../CustomParagraph/CustomParagraph';
 import * as HomeBlogPostStyles from './HomeBlogPost.module.css';
-// import BlogImg from "../../images/HomeBlogs.png"
-// import HomeBlogTwo from "../../images/HomeBlog2.png"
-// import HomeBlog from "../../images/HomeBlog.png";
-import { StaticImage } from 'gatsby-plugin-image';
-
+import BlogImg from "../../images/HomeBlogs.png"
+import HomeBlogTwo from "../../images/HomeBlog2.png"
+import HomeBlog from "../../images/HomeBlog.png";
 
 function HomeBlogPost() {
     const customeSlider = createRef() as any;
@@ -63,13 +61,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/how-do-google-ads-work/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={BlogImg}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-                                            <StaticImage src="../../images/HomeBlogs.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlogs.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}> November 10, 2021</p>
                                         <br />
@@ -92,14 +90,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/how-to-run-an-effective-digital-marketing-campaign/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={HomeBlogTwo}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-
-                                            <StaticImage src="../../images/HomeBlog2.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlog2.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}>November 10, 2021</p>
                                         <br />
@@ -124,14 +121,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/am-i-too-late-for-learning-python/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={HomeBlog}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-
-                                            <StaticImage src="../../images/HomeBlog.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlog.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}>November 10, 2021</p>
                                         <br />
@@ -155,13 +151,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/how-do-google-ads-work/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={BlogImg}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-                                            <StaticImage src="../../images/HomeBlogs.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlogs.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}>November 10, 2021</p>
                                         <br />
@@ -182,14 +178,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/am-i-too-late-for-learning-python/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={HomeBlog}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-
-                                            <StaticImage src="../../images/HomeBlog.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlog.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}>November 10, 2021</p>
                                         <br />
@@ -212,14 +207,13 @@ function HomeBlogPost() {
                             <Link to="https://blog.binarymarvels.com/how-to-run-an-effective-digital-marketing-campaign/">
                                 <a>
                                     <div>
-                                        {/* <img alt=""
+                                        <img alt=""
                                             src={HomeBlogTwo}
                                             className={HomeBlogPostStyles.blog_post_img}
-                                        /> */}
-                                        <div className={HomeBlogPostStyles.blog_post_img}>
-
-                                            <StaticImage src="../../images/HomeBlog2.png" alt="" />
-                                        </div>
+                                        />
+                                        {/* <div className={HomeBlogPostStyles.blog_post_img}>
+                                            <Image src="/Assets/Images/HomeBlog2.png" layout='fill' />
+                                        </div> */}
                                         <br />
                                         <p className={HomeBlogPostStyles.blog_post_date}>November 10, 2021</p>
                                         <br />
