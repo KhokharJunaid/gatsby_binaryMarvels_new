@@ -6,10 +6,11 @@ import CustomHeadingOneBanner from '../CustomHeadingOneBanner';
 import HomeLetter from '../HomeLetter';
 import { Link } from 'gatsby';
 import { HeadingVariants, ImageVariants, ParentVariants, TextVariants } from '../../services/animation.service';
-// import BannerImg from "../../images/Banner.png";
+import BannerImg from "../../images/Banner.png";
 import { useInView } from 'react-intersection-observer';
+
 import { useWindowSize } from "../../hooks/windowDimensions";
-import { StaticImage } from 'gatsby-plugin-image';
+
 
 function HomeBanner() {
     const { width } = useWindowSize();
@@ -73,10 +74,10 @@ function HomeBanner() {
                             xxl={12}
                         >
                             <motion.div variants={ImageVariants}>
-                                {/* {width > 1100 && <div className={HomeBannerStyles.image}>
+                                {width > 1100 && <div className={HomeBannerStyles.image}>
                                     <img src={BannerImg} alt="Banner" />
-                                </div>} */}
-                                {width > 1100 && <StaticImage className={HomeBannerStyles.image} src="../../images/Banner.png" alt="comp" />}
+                                </div>}
+
                             </motion.div>
                         </Col>
                     </Row>
