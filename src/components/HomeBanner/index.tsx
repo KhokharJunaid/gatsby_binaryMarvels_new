@@ -73,12 +73,12 @@ function HomeBanner() {
                             xl={12}
                             xxl={12}
                         >
-                            {/* <motion.div variants={ImageVariants}>
+                            <motion.div variants={ImageVariants}>
                                 {width > 1100 && <div className={HomeBannerStyles.image}>
                                     <img src={BannerImg} alt="Banner" />
                                 </div>}
 
-                            </motion.div> */}
+                            </motion.div>
                         </Col>
                     </Row>
                 </motion.div >

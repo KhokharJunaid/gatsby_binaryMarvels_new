@@ -42,10 +42,10 @@ function OrderBanner() {
                 animate={controls}
             >
                 <motion.div variants={ImageVariants}>
-                    {/* {width > 1100 && <img alt=""
+                    {width > 1100 && <img alt=""
                         src={Order_main_banner}
                         className={OrderBannerStyles.home_img}
-                    />} */}
+                    />}
 
                     {/* {width > 1100 && (
                         <div className={OrderBannerStyles.home_img}>
