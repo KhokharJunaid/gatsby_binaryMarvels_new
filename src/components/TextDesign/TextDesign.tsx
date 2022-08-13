@@ -53,9 +53,10 @@ function TextDesign({
                             );
                         })}
                     </motion.ul>
-                )}
-            </motion.div>
-        </motion.div>
+                )
+                }
+            </motion.div >
+        </motion.div >
     );
 }
 export default TextDesign;

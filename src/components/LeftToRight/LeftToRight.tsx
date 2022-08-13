@@ -87,7 +87,7 @@ function LeftToRight({
                     </motion.h1>
                 </Col>
             </Row>
-        </motion.div>
+        </motion.div >
     );
 }
 

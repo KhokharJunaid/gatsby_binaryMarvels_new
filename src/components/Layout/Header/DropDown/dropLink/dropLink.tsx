@@ -124,7 +124,7 @@ function DropLink() {
           </Link>
         </motion.div>
       </div>
-    </motion.div>
+    </motion.div >
   );
   return (
     <>

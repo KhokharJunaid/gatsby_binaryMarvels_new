@@ -18,7 +18,7 @@ function CustomHeadingOne({ text }: { text: string }) {
     return (
         <motion.h1 className={CustomHeadingOneStyles.headingOne} variants={textVariants}>
             {text}
-        </motion.h1>
+        </ motion.h1>
     );
 }
 

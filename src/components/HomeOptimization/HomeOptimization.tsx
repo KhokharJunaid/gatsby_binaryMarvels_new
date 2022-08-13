@@ -92,7 +92,7 @@ function HomeOptimization() {
                     </motion.div>
                 </Col>
             </Row>
-        </motion.div>
+        </motion.div >
     );
 }
 
